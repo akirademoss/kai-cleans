@@ -46,7 +46,7 @@ function HeroHome() {
               Kai Cleans
             </h1>
             <p className="text-xl text-gray-400 mb-0" data-aos="fade-up" data-aos-delay="200">
-              Professional expertise uniquely tailored toward handling your unwanted messes
+              Meet your new favorite San Francisco cleaning company.  Featuring professional expertise uniquely tailored toward handling your unwanted messes
             </p> {/*
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
