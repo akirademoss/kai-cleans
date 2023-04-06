@@ -58,9 +58,18 @@ function Header() {
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
              
             </p>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-             phone: 515-686-7566
-            </p>
+            <ul className="text-gray-400">
+              <li className="flex items-center mb-2">
+                <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">
+                 email: info@kaicleans.com
+                </p>
+              </li>
+              <li className="flex items-center">
+                <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">
+                 call/text: 515-686-7566
+               </p>
+              </li>
+            </ul>
             <br></br>
             </ul>
 
@@ -85,9 +94,18 @@ function Header() {
               <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
              
              </p>
-             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-              phone: 515-686-7566
-             </p>
+             <ul className="text-gray-400">
+              <li className="flex items-center mb-2">
+                <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">
+                 email: info@kaicleans.com
+                </p>
+              </li>
+              <li className="flex items-center">
+                <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">
+                 call/text: 515-686-7566
+               </p>
+              </li>
+            </ul>
               </ul>
             </nav>
 
