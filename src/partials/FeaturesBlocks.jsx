@@ -8,10 +8,11 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">No Stress House Cleaning Services.</h2>
-            <p className="text-xl text-gray-400">When you’ve had a long day, coming home to a messy house piles on the stress. But you don’t feel like doing any house cleaning. You’re already exhausted and all you want is just a little “you” time. </p> 
+            <h2 className="h2 mb-4 font-manrope">No Stress House Cleaning Services.</h2>
+            <p className="text-xl font-normal text-gray-400">At Kai Cleans, we transform your home into a spotless sanctuary. Our feng shui-trained experts do more than clean – they enhance your lifestyle. </p> 
             <br></br>
-            <p className="text-xl text-gray-400"> Where do you find the energy to clean? Even if you somehow power through it, you’ll have no time left for yourself. And you definitely won’t have time to spend with your family. Don’t you deserve to get some time back?</p>
+            <p className="text-xl font-normal text-gray-400"> With unmatched attention to detail, we free your time for what matters most: career, family, and passions. Experience the difference with Kai Cleans, where exceptional cleaning creates exceptional living.
+            </p>
           </div>
 
           {/* Items */}
@@ -24,8 +25,8 @@ function FeaturesBlocks() {
                 <path className="stroke-current text-blue-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-blue-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
-              <h4 className="h4 mb-2">Quality Service</h4>
-              <p className="text-lg text-gray-400 text-center">Your satisfaction is our top priority. We’ll always do our best to provide you the quality you want with the respect you deserve.</p>
+              <h4 className="h4 mb-2 font-manrope">Quality Service</h4>
+              <p className="text-lg text-gray-400 text-center font-manrope">Your satisfaction is our top priority. We’ll always do our best to provide you the quality you want with the respect you deserve.</p>
             </div>
 
             {/* 2nd item */}
@@ -35,8 +36,8 @@ function FeaturesBlocks() {
                 <path className="stroke-current text-blue-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-blue-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2">Convenient Scheduling</h4>
-              <p className="text-lg text-gray-400 text-center">Relax and let us worry about your house cleaning. You can count on us to be there when we say we’ll be there.</p>
+              <h4 className="h4 mb-2 font-manrope">Convenient Scheduling</h4>
+              <p className="text-lg text-gray-400 text-center font-manrope">Relax and let us worry about your house cleaning. You can count on us to be there when we say we’ll be there.</p>
             </div>
 
 
@@ -50,8 +51,8 @@ function FeaturesBlocks() {
                   <circle className="stroke-current text-blue-300" cx="13" cy="9" r="3" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Kind, Friendly Staff</h4>
-              <p className="text-lg text-gray-400 text-center">You can reach out to us via phone, text, email, and social media. You’ll always get a fast, friendly response!</p>
+              <h4 className="h4 mb-2 font-manrope">Kind, Friendly Staff</h4>
+              <p className="text-lg text-gray-400 text-center font-manrope">You can reach out to us via phone, text, email, and social media. You’ll always get a fast, friendly response!</p>
             </div>
 
           </div>

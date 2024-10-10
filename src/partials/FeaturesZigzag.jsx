@@ -30,8 +30,8 @@ function FeaturesZigzag() {
           {/* Regular Cleans header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Cleaning Services You Can Rely On</div>
-            <h1 className="h2 mb-4">Regular Cleaning Included Tasks</h1>
-            <p className="text-xl text-gray-400">Get your house cleaned with an ongoing cleaning service either weekly or every two weeks, or monthly. To sign up, you’ll first need a Deep Clean to get your house ready. After that, Regular Cleans are priced at a flat rate.</p>
+            <h1 className="h2 mb-4 font-manrope">Regular Cleaning Included Tasks</h1>
+            <p className="text-xl text-gray-400 font-manrope">Get your house cleaned with an ongoing cleaning service either weekly or every two weeks, or monthly. To sign up, you’ll first need a Deep Clean to get your house ready. After that, Regular Cleans are priced at a flat rate.</p>
           </div>          
 
             {/* 1st item */}
@@ -44,7 +44,7 @@ function FeaturesZigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-blue-500 mb-2">Less mess. Less stress</div>
-                  <h3 className="h3 mb-3">Kitchen Cleaning</h3>
+                  <h3 className="h3 mb-3 font-manrope">Kitchen Cleaning</h3>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -116,7 +116,7 @@ function FeaturesZigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-blue-500 mb-2">Less mess. Less stress</div>
-                  <h3 className="h3 mb-3">Bathroom Cleaning</h3>
+                  <h3 className="h3 mb-3 font-manrope">Bathroom Cleaning</h3>
                  
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
@@ -182,7 +182,7 @@ function FeaturesZigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-blue-500 mb-2">Less mess. Less stress</div>
-                  <h3 className="h3 mb-3">Entry Cleaning</h3>
+                  <h3 className="h3 mb-3 font-manrope">Entry Cleaning</h3>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -223,7 +223,7 @@ function FeaturesZigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-blue-500 mb-2">Less mess. Less stress</div>
-                  <h3 className="h3 mb-3">Whole-House Cleaning</h3>
+                  <h3 className="h3 mb-3 font-manrope">Whole-House Cleaning</h3>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -270,7 +270,7 @@ function FeaturesZigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-blue-500 mb-2">Less mess. Less stress</div>
-                  <h3 className="h3 mb-3">What We Can't Do On Regular Cleans:</h3>
+                  <h3 className="h3 mb-3 font-manrope">What We Can't Do On Regular Cleans:</h3>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -367,7 +367,7 @@ function FeaturesZigzag() {
           {/* Regular Cleans header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Cleaning Services You Can Rely On</div>
-            <h1 className="h2 mb-4">Deep Cleaning Included Tasks</h1>
+            <h1 className="h2 mb-4 font-manrope">Deep Cleaning Included Tasks</h1>
             <p className="text-xl text-gray-400">Our standard deep clean service is priced hourly and includes the same tasks as our First-Time Clean. We will hand-wipe what we can safely reach with a 2-step step stool. To learn more about what we can do for you, speak with your Kai Cleans consultant today.</p>
           </div>          
 
@@ -381,7 +381,7 @@ function FeaturesZigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-blue-500 mb-2">Less mess. Less stress</div>
-                  <h3 className="h3 mb-3">Includes All Regular Clean Tasks Above Plus...</h3>
+                  <h3 className="h3 mb-3 font-manrope">Includes All Regular Clean Tasks Above Plus...</h3>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -464,7 +464,7 @@ function FeaturesZigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-blue-500 mb-2">Less mess. Less stress</div>
-                  <h3 className="h3 mb-3">Empty Homes if Requested:</h3>
+                  <h3 className="h3 mb-3 font-manrope">Empty Homes if Requested:</h3>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -525,7 +525,7 @@ function FeaturesZigzag() {
           {/* Regular Cleans header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Cleaning Services You Can Rely On</div>
-            <h1 className="h2 mb-4">Commercial Cleans</h1>
+            <h1 className="h2 mb-4 font-manrope">Commercial Cleans</h1>
             <p className="text-xl text-gray-400">As a business we know you need to focus on providing your core services or products to your customers. That is why you should leave the task of cleaning and disinfecting your office to the professionals at Kai Cleans.  </p>
             <br></br>
             <p className="text-xl text-gray-400">When you hire Kai Cleans for your office cleaning services, you don’t have to worry about providing a clean and healthy place for your employees and customers. We’ll take care of the cleaning, so you can take care of your customers!</p>
@@ -541,7 +541,7 @@ function FeaturesZigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-blue-500 mb-2">Less mess. Less stress</div>
-                  <h3 className="h3 mb-3">Commercial Disinfecting Services</h3>
+                  <h3 className="h3 mb-3 font-manrope">Commercial Disinfecting Services</h3>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -588,7 +588,7 @@ function FeaturesZigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-blue-500 mb-2">Less mess. Less stress</div>
-                  <h3 className="h3 mb-3">Office Cleaning Services</h3>
+                  <h3 className="h3 mb-3 font-manrope">Office Cleaning Services</h3>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -641,7 +641,7 @@ function FeaturesZigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-blue-500 mb-2">Less mess. Less stress</div>
-                  <h3 className="h3 mb-3">Kitchen / Break Room Cleaning</h3>
+                  <h3 className="h3 mb-3 font-manrope">Kitchen / Break Room Cleaning</h3>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -712,7 +712,7 @@ function FeaturesZigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-blue-500 mb-2">Less mess. Less stress</div>
-                  <h3 className="h3 mb-3">Restroom Cleaning</h3>
+                  <h3 className="h3 mb-3 font-manrope">Restroom Cleaning</h3>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
