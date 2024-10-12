@@ -3,6 +3,7 @@ import Modal from '../utils/Modal';
 
 import HeroImage from '../images/hero-image-01.jpg';
 import Housecleaning from '../images/housecleaning.jpg';
+import Kc5 from '../images/kc5.jpg';
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -67,7 +68,7 @@ function HeroHome() {
           {/* Hero image */}
           <div>
             <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="100">
-              <img className="mx-auto" src={Housecleaning} width="1024" height="504" alt="Hero" />
+              <img className="mx-auto" src={Kc5} width="1024" height="504" alt="Hero" />
 
             </div>
 
