@@ -31,7 +31,7 @@ function FeaturesZigzag() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Cleaning Services You Can Rely On</div>
             <h1 className="h2 mb-4 font-manrope">Regular Cleaning Included Tasks</h1>
-            <p className="text-xl text-gray-400 font-manrope">Get your house cleaned with an ongoing cleaning service either weekly or every two weeks, or monthly. To sign up, you’ll first need a Deep Clean to get your house ready. After that, Regular Cleans are priced at a flat rate.</p>
+            <p className="text-xl text-gray-400 font-manrope">Get your house cleaned with an ongoing cleaning service either weekly or every two weeks, or monthly. To sign up, you’ll first need a Deep Clean to get your house ready. After that, we'll collaborate to create a Regular Clean routine that sets you up for success.</p>
           </div>          
 
             {/* 1st item */}
@@ -270,7 +270,7 @@ function FeaturesZigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-blue-500 mb-2">Less mess. Less stress</div>
-                  <h3 className="h3 mb-3 font-manrope">What We Can't Do On Regular Cleans:</h3>
+                  <h3 className="h3 mb-3 font-manrope">What We Can't Do On Regular Cleans (Unless Time Permits and Discussed Beforehand):</h3>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -368,7 +368,7 @@ function FeaturesZigzag() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Cleaning Services You Can Rely On</div>
             <h1 className="h2 mb-4 font-manrope">Deep Cleaning Included Tasks</h1>
-            <p className="text-xl text-gray-400">Our standard deep clean service is priced hourly and includes the same tasks as our First-Time Clean. We will hand-wipe what we can safely reach with a 2-step step stool. To learn more about what we can do for you, speak with your Kai Cleans consultant today.</p>
+            <p className="text-xl text-gray-400">Our standard deep clean service is priced hourly and includes the same tasks as our First-Time Clean. To learn more about what we can do for you, speak with your Kai Cleans consultant today.</p>
           </div>          
 
             {/* 1st item */}
@@ -387,31 +387,19 @@ function FeaturesZigzag() {
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Step stool for higher areas/shelves</span>
+                      <span>Wipe down extra layers of build up</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Hand wipe trim door frames or baseboards</span>
-                    </li>
-                    <li className="flex items-center mb-2">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Hand wipe ceiling fan blades</span>
+                      <span>Hand wipe trim on doors</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>Edge carpet</span>
-                    </li>
-                    <li className="flex items-center mb-2">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Hand wipe all 2 inch blinds (not mini blinds)</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -447,7 +435,7 @@ function FeaturesZigzag() {
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>All interior window glass</span>
+                      <span>All interior window glass - as requested</span>
                     </li>
                   </ul>
                 </div>
