@@ -42,10 +42,10 @@ function SignUp() {
                                         <div
                                             class="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
                                             <div class="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
-                                                <img class=" rounded-xl object-cover" src={Kc4} alt="about Us image" 
+                                                <img class=" rounded-xl object-cover" src={Kc0} alt="about Us image" 
                                                      data-aos="fade-right" data-aos-delay="100"/>
                                             </div>
-                                            <img class="sm:ml-0 ml-auto rounded-xl object-cover" src={Kc0}
+                                            <img class="sm:ml-0 ml-auto rounded-xl object-cover" src={Kc1}
                                                 alt="about Us image" 
                                                 data-aos="fade-left" data-aos-delay="200"/>
                                         </div>
