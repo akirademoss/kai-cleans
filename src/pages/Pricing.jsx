@@ -18,12 +18,13 @@ import { MinusCircleIcon } from "@heroicons/react/24/outline";
 function PricingCard({ title, desc, price, options }) {
   return (
 
-    <Card variant="gradient" color="white">
+    <Card variant="gradient" color="white" data-aos="fade-up" data-aos-delay="200">
       <CardHeader
         floated={false}
         shadow={false}
         color="transparent"
         className="!m-0 p-6"
+        data-aos="fade-up" data-aos-delay="200"
       >
         <Typography
           variant="h6"
@@ -54,7 +55,7 @@ function PricingCard({ title, desc, price, options }) {
           </Typography>
         </Typography>
       </CardHeader>
-      <CardBody className="pt-0">
+      <CardBody className="pt-0" data-aos="fade-up" data-aos-delay="200">
         <ul className="flex flex-col gap-3 mb-6">
           {options.map((option, key) => (
             <li
@@ -166,12 +167,17 @@ export function PricingSection11() {
 
     {/*  Site header */}
     <Header />
+    <main className="grow">
+    <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
+                    <PageIllustration />
+                </div>
     <div className="flex justify-center align-center">
     <section className="py-24 px-8">
       <div className="container mx-auto">
         <Typography
           color="blue-gray"
           className="mb-4 font-bold font-manrope text-lg"
+          data-aos="fade-up" 
         >
           Pricing Plans
         </Typography>
@@ -179,12 +185,14 @@ export function PricingSection11() {
           variant="h1"
           color="blue-gray"
           className="mb-4 !leading-snug lg:!text-4xl font-bold font-manrope !text-2xl max-w-2xl"
+          data-aos="fade-up" data-aos-delay="100"
         >
           Invest in a plan that provides you with the peace of mind you deserve.
         </Typography>
         <Typography
           variant="lead"
           className="mb-10 font-normal !text-gray-500 max-w-xl"
+          data-aos="fade-up" data-aos-delay="200"
         >
           Compare the benefits and features of each plan below to find the ideal
           match for your home&apos;s budget and cleaning needs.
@@ -210,6 +218,7 @@ export function PricingSection11() {
       </div>
     </section>
     </div>
+    </main>
     </div>
   );
 }

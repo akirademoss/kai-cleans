@@ -63,15 +63,15 @@ function SignUp() {
                                                         </p>
                                                 </div>
                                                 <div class="w-full lg:justify-start justify-center items-center sm:gap-10 gap-2 inline-flex" >
-                                                    <div class="flex-col justify-start items-start inline-flex"  data-aos="fade-down" data-aos-delay="300" >
+                                                    <div class="flex-col justify-start items-start inline-flex"  data-aos="fade-up" data-aos-delay="300" >
                                                         <h3 class="text-white text-4xl font-bold font-manrope leading-normal">5+</h3>
                                                         <h6 class="text-gray-400 text-base font-normal leading-relaxed">Years of Experience</h6>
                                                     </div>
-                                                    <div class="flex-col justify-start items-start inline-flex"  data-aos="fade-down" data-aos-delay="400" >
+                                                    <div class="flex-col justify-start items-start inline-flex"  data-aos="fade-up" data-aos-delay="400" >
                                                         <h4 class="text-white text-4xl font-bold font-manrope leading-normal">400+</h4>
                                                         <h6 class="text-gray-400 text-base font-normal leading-relaxed">Satisfied Clients</h6>
                                                     </div>
-                                                    <div class="flex-col justify-start items-start inline-flex"  data-aos="fade-down" data-aos-delay="500" >
+                                                    <div class="flex-col justify-start items-start inline-flex"  data-aos="fade-up" data-aos-delay="500" >
                                                         <h4 class="text-white text-4xl font-bold font-manrope leading-normal">250+</h4>
                                                         <h6 class="text-gray-400 text-base font-normal leading-relaxed">Repeat Appointments</h6>
                                                     </div>
