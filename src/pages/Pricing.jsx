@@ -187,7 +187,7 @@ export function PricingSection11() {
           className="mb-4 !leading-snug lg:!text-4xl font-bold font-manrope !text-2xl max-w-2xl"
           data-aos="fade-up" data-aos-delay="100"
         >
-          Invest in a plan that provides you with the peace of mind you deserve.
+          Invest in a Plan That Provides You With the Peace of Mind You Deserve.
         </Typography>
         <Typography
           variant="lead"

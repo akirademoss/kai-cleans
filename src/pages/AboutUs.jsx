@@ -43,11 +43,11 @@ function SignUp() {
                                             class="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
                                             <div class="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
                                                 <img class=" rounded-xl object-cover" src={Kc0} alt="about Us image" 
-                                                     data-aos="fade-right" data-aos-delay="100"/>
+                                                     data-aos="fade-up" data-aos-delay="100"/>
                                             </div>
                                             <img class="sm:ml-0 ml-auto rounded-xl object-cover" src={Kc4}
                                                 alt="about Us image" 
-                                                data-aos="fade-left" data-aos-delay="200"/>
+                                                data-aos="fade-up" data-aos-delay="200"/>
                                         </div>
                                         <div class="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
                                             <div class="w-full flex-col justify-center items-start gap-8 flex">
@@ -77,12 +77,14 @@ function SignUp() {
                                                     </div>
                                                 </div>
                                             </div>
+                                            
                                             <Link to="https://www.google.com/search?q=kai+cleans&rlz=1C5CHFA_enUS871US871&oq=kai+cleans&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIMCAEQIxgnGIAEGIoFMg0IAhAAGIYDGIAEGIoFMgoIAxAAGIAEGKIEMgoIBBAAGIAEGKIEMgYIBRBFGD0yBggGEEUYPDIGCAcQRRg80gEIMTMxNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x4e5565ff4a9129ab:0xa857b9fe74acd199,1,,,,">
                                             <button
-                                                class="sm:w-fit w-full px-3.5 py-2 bg-white hover:bg-blue-600 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
-                                                <span class="px-1.5 text-blue-600 hover:text-white text-sm font-medium leading-6">Read Reviews</span>
+                                                class="sm:w-fit w-full px-3.5 py-2 bg-white hover:bg-blue-600 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex" data-aos="fade-up" data-aos-delay="300">
+                                                <span class="px-1.5 text-blue-600 hover:text-white text-sm font-medium leading-6" data-aos="fade-up" data-aos-delay="400">Read Reviews</span>
                                             </button>
                                             </Link>
+                                            
                                         </div>
                                     </div>
                                 </div>
