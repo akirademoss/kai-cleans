@@ -89,42 +89,21 @@ export function PricingSection11() {
       options: [
         {
           icon: (
-            <CheckCircleIcon className="h-5 w-5 text-blue-gray-900" />
+            <CheckCircleIcon className="mx-1 h-5 w-5 text-blue-gray-900" />
           ),
-          info: "Complete documentation",
+          info: "Ideal for households with minimal foot traffic or smaller spaces",
         },
         {
           icon: (
-            <CheckCircleIcon className="h-5 w-5 text-blue-gray-900" />
+            <CheckCircleIcon className="mx-1 h-5 w-5 text-blue-gray-900"  />
           ),
-          info: "Working materials in Sketch",
+          info: "Clients who maintain a tidy home but need periodic maintenance",
         },
         {
           icon: (
-            <MinusCircleIcon
-              strokeWidth={2.5}
-              className="h-5 w-5 text-blue-gray-900"
-            />
+            <CheckCircleIcon className="mx-1 h-5 w-5 text-blue-gray-900" />
           ),
-          info: "Integration help",
-        },
-        {
-          icon: (
-            <MinusCircleIcon
-              strokeWidth={2.5}
-              className="h-5 w-5 text-blue-gray-900"
-            />
-          ),
-          info: "40GB Cloud storage",
-        },
-        {
-          icon: (
-            <MinusCircleIcon
-              strokeWidth={2.5}
-              className="h-5 w-5 text-blue-gray-900"
-            />
-          ),
-          info: "Support team full assist",
+          info: "Budget is a concern, but consistent upkeep is still important",
         },
       ],
     },
@@ -137,86 +116,45 @@ export function PricingSection11() {
           icon: (
             <CheckCircleIcon className="h-5 w-5 text-blue-gray-900" />
           ),
-          info: "Complete documentation",
+          info: "Best for professionals or families who need more regular maintenance",
         },
         {
           icon: (
             <CheckCircleIcon className="h-5 w-5 text-blue-gray-900" />
           ),
-          info: "Working materials in Sketch",
+          info: "Ideal for homes with moderate foot traffic, kids, or pets",
         },
         {
           icon: (
-            <CheckCircleIcon
-              strokeWidth={2.5}
-              className="h-5 w-5 text-blue-gray-900"
-            />
+            <CheckCircleIcon className="h-5 w-5 text-blue-gray-900" />
           ),
-          info: "Integration help",
-        },
-        {
-          icon: (
-            <CheckCircleIcon
-              strokeWidth={2.5}
-              className="h-5 w-5 text-blue-gray-900"
-            />
-          ),
-          info: "40GB Cloud storage",
-        },
-        {
-          icon: (
-            <MinusCircleIcon
-              strokeWidth={2.5}
-              className="h-5 w-5 text-blue-gray-900"
-            />
-          ),
-          info: "Support team full assist",
+          info: "Balance of thorough cleaning and ongoing upkeep w/o daily attention",
         },
       ],
     },
     {
       title: "One-Time",
       desc: "One-Time deep cleaning",
-      price: ["$", "95", "year"],
+      price: ["$", "95", "hr"],
       options: [
         {
           icon: (
             <CheckCircleIcon className="h-5 w-5 text-blue-gray-900" />
           ),
-          info: "Complete documentation",
+          info: "Clients who need a comprehensive, top-to-bottom clean",
+          
         },
         {
           icon: (
             <CheckCircleIcon className="h-5 w-5 text-blue-gray-900" />
           ),
-          info: "Working materials in Sketch",
+          info: "Preparing for events, move-ins/outs, or after renovations",
         },
         {
           icon: (
-            <CheckCircleIcon
-              strokeWidth={2.5}
-              className="h-5 w-5 text-blue-gray-900"
-            />
+            <CheckCircleIcon className="h-5 w-5 text-blue-gray-900" />
           ),
-          info: "Integration help",
-        },
-        {
-          icon: (
-            <CheckCircleIcon
-              strokeWidth={2.5}
-              className="h-5 w-5 text-blue-gray-900"
-            />
-          ),
-          info: "40GB Cloud storage",
-        },
-        {
-          icon: (
-            <CheckCircleIcon
-              strokeWidth={2.5}
-              className="h-5 w-5 text-blue-gray-900"
-            />
-          ),
-          info: "Support team full assist",
+          info: "Reset your space with an intensive clean w/o onging service",
         },
       ],
     },
@@ -233,23 +171,23 @@ export function PricingSection11() {
       <div className="container mx-auto">
         <Typography
           color="blue-gray"
-          className="mb-4 font-bold text-lg"
+          className="mb-4 font-bold font-manrope text-lg"
         >
           Pricing Plans
         </Typography>
         <Typography
           variant="h1"
           color="blue-gray"
-          className="mb-4 !leading-snug lg:!text-4xl !text-2xl max-w-2xl"
+          className="mb-4 !leading-snug lg:!text-4xl font-bold font-manrope !text-2xl max-w-2xl"
         >
-          Invest in a plan that&apos;s as ambitious as your corporate goals.
+          Invest in a plan that provides you with the peace of mind you deserve.
         </Typography>
         <Typography
           variant="lead"
           className="mb-10 font-normal !text-gray-500 max-w-xl"
         >
           Compare the benefits and features of each plan below to find the ideal
-          match for your business&apos;s budget and ambitions.
+          match for your home&apos;s budget and cleaning needs.
         </Typography>
         <div className="grid gap-x-10 gap-y-8 md:grid-cols-2 lg:grid-cols-3 max-w-5xl">
           {cards.map(({ title, desc, options, price }, key) => (
@@ -266,8 +204,8 @@ export function PricingSection11() {
           variant="small"
           className="mt-10 font-normal !text-gray-500"
         >
-          You have Free Unlimited Updates and Premium Support on each package.
-          You also have 30 days to request a refund.
+          No contracts required housecleaning services.
+          Book today to secure a slot.
         </Typography>
       </div>
     </section>
