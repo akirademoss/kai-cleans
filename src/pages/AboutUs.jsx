@@ -45,7 +45,7 @@ function SignUp() {
                                                 <img class=" rounded-xl object-cover" src={Kc0} alt="about Us image" 
                                                      data-aos="fade-right" data-aos-delay="100"/>
                                             </div>
-                                            <img class="sm:ml-0 ml-auto rounded-xl object-cover" src={Kc1}
+                                            <img class="sm:ml-0 ml-auto rounded-xl object-cover" src={Kc4}
                                                 alt="about Us image" 
                                                 data-aos="fade-left" data-aos-delay="200"/>
                                         </div>
