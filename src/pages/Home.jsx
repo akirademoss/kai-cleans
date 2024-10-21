@@ -9,6 +9,7 @@ import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Banner from '../partials/Banner';
 import Footer from '../partials/Footer';
+import Banner8 from '../partials/Banner8';
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
         <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
           <PageIllustration />
         </div>
+        <Banner8 />
 
         {/*  Page sections */}
         <HeroHome />

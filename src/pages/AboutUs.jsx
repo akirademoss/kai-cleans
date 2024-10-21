@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Header from '../partials/Header';
 import PageIllustration from '../partials/PageIllustration';
 import Banner from '../partials/Banner';
+import Banner8 from '../partials/Banner8';
 
 import Kc0 from '../images/kc0.jpg';
 import Kc1 from '../images/kc1.png';
@@ -25,6 +26,7 @@ function SignUp() {
                 <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
                     <PageIllustration />
                 </div>
+                <Banner8 />
 
                 <section className="relative">
                     <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -80,8 +82,8 @@ function SignUp() {
                                             
                                             <Link to="https://www.google.com/search?q=kai+cleans&rlz=1C5CHFA_enUS871US871&oq=kai+cleans&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIMCAEQIxgnGIAEGIoFMg0IAhAAGIYDGIAEGIoFMgoIAxAAGIAEGKIEMgoIBBAAGIAEGKIEMgYIBRBFGD0yBggGEEUYPDIGCAcQRRg80gEIMTMxNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x4e5565ff4a9129ab:0xa857b9fe74acd199,1,,,,">
                                             <button
-                                                class="sm:w-fit w-full px-3.5 py-2 bg-white hover:bg-blue-600 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex" data-aos="fade-up" data-aos-delay="300">
-                                                <span class="px-1.5 text-blue-600 hover:text-white text-sm font-medium leading-6" data-aos="fade-up" data-aos-delay="400">Read Reviews</span>
+                                                class="sm:w-fit w-full px-3.5 py-2 bg-blue-600 hover:bg-white transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex" data-aos="fade-up" data-aos-delay="300">
+                                                <span class="px-1.5 text-white hover:text-blue-600 text-sm font-medium leading-6">Read Reviews</span>
                                             </button>
                                             </Link>
                                             

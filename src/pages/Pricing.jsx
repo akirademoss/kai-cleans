@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Header from '../partials/Header';
 import PageIllustration from '../partials/PageIllustration';
 import Banner from '../partials/Banner';
-
+import Banner8 from '../partials/Banner8';
 import {
   Typography,
   Button,
@@ -18,13 +18,13 @@ import { MinusCircleIcon } from "@heroicons/react/24/outline";
 function PricingCard({ title, desc, price, options }) {
   return (
 
-    <Card variant="gradient" color="white" data-aos="fade-up" data-aos-delay="200">
+    <Card variant="gradient" color="white" data-aos="fade-up">
       <CardHeader
         floated={false}
         shadow={false}
         color="transparent"
         className="!m-0 p-6"
-        data-aos="fade-up" data-aos-delay="200"
+        data-aos="fade-up"
       >
         <Typography
           variant="h6"
@@ -55,7 +55,7 @@ function PricingCard({ title, desc, price, options }) {
           </Typography>
         </Typography>
       </CardHeader>
-      <CardBody className="pt-0" data-aos="fade-up" data-aos-delay="200">
+      <CardBody className="pt-0" data-aos="fade-up">
         <ul className="flex flex-col gap-3 mb-6">
           {options.map((option, key) => (
             <li
@@ -72,7 +72,7 @@ function PricingCard({ title, desc, price, options }) {
             </li>
           ))}
         </ul>
-        <Button className="text-white" fullWidth varient="gradient" color="gray">
+        <Button className="text-white bg-blue-600" fullWidth varient="gradient">
           get started
         </Button>
       </CardBody>
@@ -90,19 +90,19 @@ export function PricingSection11() {
       options: [
         {
           icon: (
-            <CheckCircleIcon className="mx-1 h-5 w-5 text-blue-gray-900" />
+            <CheckCircleIcon className="mx-1 h-5 w-5 text-green-700" />
           ),
           info: "Ideal for households with minimal foot traffic or smaller spaces",
         },
         {
           icon: (
-            <CheckCircleIcon className="mx-1 h-5 w-5 text-blue-gray-900"  />
+            <CheckCircleIcon className="mx-1 h-5 w-5 text-green-700"  />
           ),
           info: "Clients who maintain a tidy home but need periodic maintenance",
         },
         {
           icon: (
-            <CheckCircleIcon className="mx-1 h-5 w-5 text-blue-gray-900" />
+            <CheckCircleIcon className="mx-1 h-5 w-5 text-green-700" />
           ),
           info: "Budget is a concern, but consistent upkeep is still important",
         },
@@ -115,19 +115,19 @@ export function PricingSection11() {
       options: [
         {
           icon: (
-            <CheckCircleIcon className="h-5 w-5 text-blue-gray-900" />
+            <CheckCircleIcon className="h-5 w-5 text-green-700" />
           ),
           info: "Best for professionals or families who need more regular maintenance",
         },
         {
           icon: (
-            <CheckCircleIcon className="h-5 w-5 text-blue-gray-900" />
+            <CheckCircleIcon className="h-5 w-5 text-green-700" />
           ),
           info: "Ideal for homes with moderate foot traffic, kids, or pets",
         },
         {
           icon: (
-            <CheckCircleIcon className="h-5 w-5 text-blue-gray-900" />
+            <CheckCircleIcon className="h-5 w-5 text-green-700" />
           ),
           info: "Balance of thorough cleaning and ongoing upkeep w/o daily attention",
         },
@@ -140,20 +140,20 @@ export function PricingSection11() {
       options: [
         {
           icon: (
-            <CheckCircleIcon className="h-5 w-5 text-blue-gray-900" />
+            <CheckCircleIcon className="h-5 w-5 text-green-700" />
           ),
           info: "Clients who need a comprehensive, top-to-bottom clean",
           
         },
         {
           icon: (
-            <CheckCircleIcon className="h-5 w-5 text-blue-gray-900" />
+            <CheckCircleIcon className="h-5 w-5 text-green-700" />
           ),
           info: "Preparing for events, move-ins/outs, or after renovations",
         },
         {
           icon: (
-            <CheckCircleIcon className="h-5 w-5 text-blue-gray-900" />
+            <CheckCircleIcon className="h-5 w-5 text-green-700" />
           ),
           info: "Reset your space with an intensive clean w/o onging service",
         },
@@ -167,10 +167,12 @@ export function PricingSection11() {
 
     {/*  Site header */}
     <Header />
+   
     <main className="grow">
     <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
                     <PageIllustration />
                 </div>
+    <Banner8 />
     <div className="flex justify-center align-center">
     <section className="py-24 px-8">
       <div className="container mx-auto">
@@ -212,7 +214,7 @@ export function PricingSection11() {
           variant="small"
           className="mt-10 font-normal !text-gray-500"
         >
-          No contracts required housecleaning services.
+          No contracts required housecleaning services provider.
           Book today to secure a slot.
         </Typography>
       </div>
