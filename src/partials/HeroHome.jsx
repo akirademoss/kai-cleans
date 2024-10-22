@@ -43,7 +43,7 @@ function HeroHome() {
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4 font-manrope " data-aos="fade-up"
+            <h1 className="h1 mb-4 font-manrope " data-aos="fade-up" style={{ marginTop: '-100px' }}
                 >
               Kai Cleans
             </h1>

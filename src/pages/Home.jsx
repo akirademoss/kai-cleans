@@ -13,7 +13,7 @@ import Banner8 from '../partials/Banner8';
 
 function Home() {
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden">
+    <div className="flex flex-col min-h-screen overflow-hidden" >
       {/*  Site header */}
       <Header />
 
@@ -26,7 +26,7 @@ function Home() {
         <Banner8 />
 
         {/*  Page sections */}
-        <HeroHome />
+        <HeroHome  style={{ marginTop: '-20px' }}/>
         <FeaturesBlocks />
         <FeaturesZigZag />
         <Testimonials />

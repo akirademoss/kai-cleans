@@ -56,7 +56,7 @@ function SignUp() {
                                                 <div class="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
                                                     <h2
                                                         class="text-white text-4xl font-bold font-manrope leading-normal lg:text-start text-center"
-                                                        data-aos="fade-up">
+                                                        data-aos="fade-up" style={{ marginTop: '-100px' }}>
                                                         Empowering Each Other to Succeed</h2>
                                                     <p class="text-gray-400 text-xl font-normal leading-relaxed lg:text-start text-center"
                                                         data-aos="fade-up">
