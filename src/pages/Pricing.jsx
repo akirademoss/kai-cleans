@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 import Header from '../partials/Header';
 import PageIllustration from '../partials/PageIllustration';
@@ -72,9 +72,11 @@ function PricingCard({ title, desc, price, options }) {
             </li>
           ))}
         </ul>
+        <NavLink to="/quote">
         <Button className="text-white bg-blue-600" fullWidth varient="gradient">
           get started
         </Button>
+        </NavLink>
       </CardBody>
     </Card>
 
