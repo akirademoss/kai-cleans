@@ -5,6 +5,9 @@ import Header from '../partials/Header';
 import PageIllustration from '../partials/PageIllustration';
 import Banner from '../partials/Banner';
 import Banner8 from '../partials/Banner8';
+import Footer2 from '../partials/Footer2';
+import Footer from '../partials/Footer';
+import Testimonials from '../partials/Testimonials';
 import {
   Typography,
   Button,
@@ -222,7 +225,12 @@ export function PricingSection11() {
       </div>
     </section>
     </div>
+    <Testimonials />
+    <Footer2 />
+    
+    <Footer style={{MarginTop: '-100px'}} />
     </main>
+
     </div>
   );
 }

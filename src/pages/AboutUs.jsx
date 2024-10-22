@@ -5,6 +5,9 @@ import Header from '../partials/Header';
 import PageIllustration from '../partials/PageIllustration';
 import Banner from '../partials/Banner';
 import Banner8 from '../partials/Banner8';
+import Newsletter from '../partials/Newsletter';
+import Footer from '../partials/Footer';
+import Testimonials from '../partials/Testimonials';
 
 import Kc0 from '../images/kc0.jpg';
 import Kc1 from '../images/kc1.png';
@@ -97,10 +100,10 @@ function SignUp() {
                         </div>
                     </div>
                 </section>
-
             </main>
-
-            <Banner />
+            <Testimonials />
+            <Newsletter />
+            <Footer />
 
         </div>
     );
