@@ -5,6 +5,7 @@ import Header from '../partials/Header';
 import PageIllustration from '../partials/PageIllustration';
 import Banner from '../partials/Banner';
 import Banner8 from '../partials/Banner8';
+import FormfacadeEmbed from "@formfacade/embed-react";
 
 import Kc0 from '../images/kc0.jpg';
 import Kc1 from '../images/kc1.png';
@@ -45,12 +46,19 @@ function Quote() {
                 <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
                     <h2 className="h1 text-4xl mb-4 font-manrope " data-aos="fade-up" style={{ marginTop: '-100px' }}
                     >
-                        Quoting Software Coming Soon
+                        Quick and Easy Onboarding!
                     </h2>
                     <p className="text-xl font-normal text-gray-400 mb-0" data-aos="fade-up" data-aos-delay="200">
-                    For quick service contact Kai at 515-686-7566 or send an email to info@kaicleans.com
+                    For further inquires email us at info@kaicleans.com
                     </p> 
                 </div>
+                <FormfacadeEmbed
+
+formFacadeURL="https://formfacade.com/include/110568194946322389214/form/1FAIpQLSdvRGosBt11ZESQnbzVukFh3W79CwlZ3Fd0WJRb2dzCfy5MZA/classic.js/?div=ff-compose"
+
+onSubmitForm={() => console.log('Form submitted')}
+
+/>
                 </div>
 
 
