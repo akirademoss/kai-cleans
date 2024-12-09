@@ -216,7 +216,7 @@ export function PricingSection11() {
           ))}
         </div>
         <Typography
-          variant="small"
+          variant="lead"
           className="mt-10 font-normal !text-gray-500"
         >
           No contracts required housecleaning services provider.

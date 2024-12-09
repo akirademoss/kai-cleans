@@ -20,13 +20,12 @@ function Home() {
       {/*  Page content */}
       <main className="grow">
         {/*  Page illustration */}
-        <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
+        <div className="relative max-w-6xl mx-auto h-0 pointer-events-none py-12" aria-hidden="true">
           <PageIllustration />
         </div>
-        <Banner8 />
 
         {/*  Page sections */}
-        <HeroHome  style={{ marginTop: '-20px' }}/>
+        <HeroHome />
         <FeaturesBlocks />
         <FeaturesZigZag />
         <Testimonials />

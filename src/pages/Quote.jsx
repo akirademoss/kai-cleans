@@ -24,10 +24,12 @@ function Quote() {
             <main className="grow text-center items-center">
 
                 {/*  Page illustration */}
-                <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
+                <div className="relative max-w-6xl mx-auto h-0 pointer-events-none py-20" aria-hidden="true">
                     <PageIllustration />
                 </div>
-                <Banner8 />
+
+                
+               
 
 
                 {/*  <div className="flex flex-col max-w-3xl mx-auto text-center pb-12 md:pb-16" style={{ alignItems: 'center',marginTop: '100px'  }}>
@@ -42,7 +44,7 @@ function Quote() {
 
 
                 {/* Section header */}
-                <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
+                <div className="relativept-32 py-12 pb-10 md:pt-40 md:pb-16">
                 <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
                     <h2 className="h1 text-4xl mb-4 font-manrope " data-aos="fade-up" style={{ marginTop: '-100px' }}
                     >

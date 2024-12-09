@@ -4,7 +4,7 @@ import Logo from '../images/kc-logo2.png';
 function Footer2() {
     return (
       <>
-        <div className="py-12 px-4">
+        <div className="py-12 px-4 max-w-6xl mx-auto sm:px-6">
           <div className="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] mx-auto bg-white relative lg:px-10 md:px-6 px-4 py-7">
             <div className="lg:max-w-[1280px] md:max-w-[696px] max-w-[343px] mx-auto bg-gray-200">
               <div className="lg:flex md:flex block justify-between items-center ">

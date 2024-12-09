@@ -3,7 +3,7 @@ import Kc0 from '../images/kc0.jpg';
         {/*  style={{borderBottom: '3px dotted white'}}*/}
 const Banner8 = () => {
     return (
-        <header className=" w-full z-30">
+        <header className=" w-full z-30 max-w-6xl mx-auto px-4 sm:px-6">
         <div className="mx-auto container py-12 px-6 xl:px-0 flex justify-center items-center flex-col" data-aos="fade-up" style={{paddingBottom: "0px", width: '100%'}}>
             <div className="flex justify-between bg-gray-50 items-stretch flex-row relative" style={{width: '100%'}}>
                 <div className="flex items-center bg-gray-600 justify-center" >

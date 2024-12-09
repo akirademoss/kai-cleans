@@ -29,9 +29,9 @@ function SignUp() {
                 <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
                     <PageIllustration />
                 </div>
-                <Banner8 />
+                
 
-                <section className="relative">
+                <section className="relative py-20">
                     <div className="max-w-6xl mx-auto px-4 sm:px-6">
                         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
