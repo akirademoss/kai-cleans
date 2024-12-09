@@ -48,7 +48,7 @@ function HeroHome() {
               Kai Cleans
             </h1>
             <p className="text-xl font-normal text-gray-400 mb-0" data-aos="fade-up" data-aos-delay="200">
-              Introducing your go-to San Francisco cleaning company!  We are dedicated to delivering exceptional service to our clients and look forward to exceeding your cleaning expectations.
+            With unmatched attention to detail, we free your time for what matters most: career, family, and passions. Experience the difference with Kai Cleans, where exceptional cleaning creates exceptional living.
             </p> {/*
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">

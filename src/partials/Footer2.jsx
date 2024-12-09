@@ -18,7 +18,7 @@ function Footer2() {
                   <p className="text-base leading-normal text-gray-600">
                     Give your friend $50 off their first clean and get $50 towards your next clean!
                     <br />
-                    Simply have them mention your name in the quoting process !!!
+                    Simply have them mention your name in the quoting process.
                   </p>
                 </div>
                 <div className="md:p-4 p-4 flex flex-col items-center" >

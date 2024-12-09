@@ -17,6 +17,7 @@ import {
 } from "@material-tailwind/react";
 import { CheckCircleIcon } from "@heroicons/react/24/solid";
 import { MinusCircleIcon } from "@heroicons/react/24/outline";
+import Quality from '../images/qual.png';
 
 function PricingCard({ title, desc, price, options }) {
   return (
@@ -219,9 +220,27 @@ export function PricingSection11() {
           variant="lead"
           className="mt-10 font-normal !text-gray-500"
         >
-          No contracts required housecleaning services provider.
-          Book today to secure a slot.
+          
         </Typography>
+
+        <div className="lg:flex md:flex block justify-between items-center ">
+                <div className="md:p-4 p-4 flex flex-col items-center" >
+                  <img 
+                    src={Quality}
+                    className="lg:!h-20 lg:!w-20 !h-21 !w-21"
+                  />
+                </div>
+                <div className="md:p-10 p-4">
+                  <p className="lg:!text-2xl !text-xl font-semibold leading-9 text-gray-300 py-4">
+                    100% Satisfaction Gaurenteed Or Your Clean Is On Us!
+                  </p>
+                  <p className="lg:!text-xl !text-normal leading-normal text-gray-300">
+                  No contracts required housecleaning services provider.
+                  Book today to secure a slot.
+                  </p>
+                </div>
+               
+              </div>
       </div>
     </section>
     </div>

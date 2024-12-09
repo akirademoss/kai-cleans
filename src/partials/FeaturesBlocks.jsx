@@ -9,9 +9,9 @@ function FeaturesBlocks() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4 font-manrope">No Stress House Cleaning Services.</h2>
-            <p className="text-xl font-normal text-gray-400">At Kai Cleans, we transform your home into a spotless sanctuary. Our feng shui-trained experts do more than clean – they enhance your lifestyle. </p> 
+            <p className="text-xl font-normal text-gray-400"> At Kai Cleans, we transform your home into a spotless sanctuary. Our feng shui-trained experts do more than clean – they enhance your lifestyle.</p> 
             <br></br>
-            <p className="text-xl font-normal text-gray-400"> With unmatched attention to detail, we free your time for what matters most: career, family, and passions. Experience the difference with Kai Cleans, where exceptional cleaning creates exceptional living.
+            <p className="text-xl font-normal text-gray-400"> We are dedicated to serving our clients with a truly premium housecleaning experience.
             </p>
           </div>
 
