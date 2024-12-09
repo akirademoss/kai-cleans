@@ -64,7 +64,7 @@ function SignUp() {
                                                     <p class="text-gray-400 text-xl font-normal leading-relaxed lg:text-start text-center"
                                                         data-aos="fade-up">
                                                         At Kai cleans we are revolutionizing the cleaning services industry with our modern approach to business and unparalleled customer experience.
-                                                        Our early adopters have the opportunity to shape the direction of our company while also earning discounts for their valuable feedback.
+                                                        Our early adopters have the opportunity to shape the direction of our company while also earning discounts for their valuable feedback.  We are proudly LGBTQ+ owned and operated.  
                                                         </p>
                                                 </div>
                                                 <div class="w-full lg:justify-start justify-center items-center sm:gap-10 gap-2 inline-flex" >
