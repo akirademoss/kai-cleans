@@ -231,7 +231,7 @@ export function PricingSection11() {
                   />
                 </div>
                 <div className="md:p-10 p-4">
-                  <p className="lg:!text-3xl !text-xl font-semibold leading-9 text-gray-300 py-4">
+                  <p className="lg:!text-3xl !text-2xl font-semibold leading-9 text-gray-300 py-4">
                     100% Satisfaction Gaurenteed Or Your Clean Is On Us!
                   </p>
                   <p className="lg:!text-xl !text-normal leading-normal text-gray-500">
