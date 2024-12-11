@@ -234,7 +234,7 @@ export function PricingSection11() {
                   <p className="lg:!text-3xl !text-xl font-semibold leading-9 text-gray-300 py-4">
                     100% Satisfaction Gaurenteed Or Your Clean Is On Us!
                   </p>
-                  <p className="lg:!text-xl !text-normal leading-normal text-gray-300">
+                  <p className="lg:!text-xl !text-normal leading-normal text-gray-500">
                   No contracts required housecleaning services provider.
                   Book today to secure a slot.
                   </p>
