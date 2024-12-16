@@ -10,10 +10,13 @@ import Newsletter from '../partials/Newsletter';
 import Banner from '../partials/Banner';
 import Footer from '../partials/Footer';
 import Banner8 from '../partials/Banner8';
+import ReactGA from "react-ga4";
+
 
 function Home() {
+  ReactGA.send({ hitType: "pageview", page: "/", title: "Home Page" });
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden" >
+    <div className="flex flex-col min-h-screen overflow-hidden">
       {/*  Site header */}
       <Header />
 
@@ -36,7 +39,10 @@ function Home() {
 
       {/*  Site footer */}
       <Footer />
+
     </div>
+
+
   );
 }
 

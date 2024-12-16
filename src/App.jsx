@@ -19,9 +19,13 @@ import ResetPassword from './pages/ResetPassword';
 
 import Quote from './pages/Quote';
 
+import ReactGA from "react-ga4";
+
+
 function App() {
 
   const location = useLocation();
+  ReactGA.initialize("G-X3YCRS27NW");
 
   useEffect(() => {
     AOS.init({
@@ -41,7 +45,7 @@ function App() {
   return (
     <>
       <Routes>
-      <Route exact path="/aboutus" element={<AboutUs />} />
+        <Route exact path="/aboutus" element={<AboutUs />} />
         <Route exact path="/" element={<Home />} />
         <Route exact path="/pricing" element={<Pricing />} />
         <Route path="/signin" element={<SignIn />} />
