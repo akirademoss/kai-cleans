@@ -18,8 +18,10 @@ import {
 import { CheckCircleIcon } from "@heroicons/react/24/solid";
 import { MinusCircleIcon } from "@heroicons/react/24/outline";
 import Quality from '../images/qual.png';
+import ReactGA from "react-ga4";
 
 function PricingCard({ title, desc, price, options }) {
+  ReactGA.send({ hitType: "pageview", page: "/", title: "Pricing Page" });
   return (
 
     <Card variant="gradient" color="white" data-aos="fade-up">

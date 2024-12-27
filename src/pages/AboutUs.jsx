@@ -8,6 +8,7 @@ import Banner8 from '../partials/Banner8';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
 import Testimonials from '../partials/Testimonials';
+import ReactGA from "react-ga4";
 
 import Kc0 from '../images/kc0.jpg';
 import Kc1 from '../images/kc1.png';
@@ -16,6 +17,7 @@ import Kc3 from '../images/kc3.png';
 import Kc4 from '../images/kc4.jpg';
 
 function SignUp() {
+    ReactGA.send({ hitType: "pageview", page: "/", title: "About Us" });
     return (
         <div className="flex flex-col min-h-screen overflow-hidden">
 

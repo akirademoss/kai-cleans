@@ -6,7 +6,7 @@ import PageIllustration from '../partials/PageIllustration';
 import Banner from '../partials/Banner';
 import Banner8 from '../partials/Banner8';
 import FormfacadeEmbed from "@formfacade/embed-react";
-
+import ReactGA from "react-ga4";
 import Kc0 from '../images/kc0.jpg';
 import Kc1 from '../images/kc1.png';
 import Kc2 from '../images/kc2.jpg';
@@ -14,6 +14,7 @@ import Kc3 from '../images/kc3.png';
 import Kc4 from '../images/kc4.jpg';
 
 function Quote() {
+    ReactGA.send({ hitType: "pageview", page: "/", title: "Quote Page" });
     return (
         <div className="flex flex-row min-h-screen overflow-hidden">
 
