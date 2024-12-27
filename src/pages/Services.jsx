@@ -13,8 +13,8 @@ import Banner8 from '../partials/Banner8';
 import ReactGA from "react-ga4";
 
 
-function Home() {
-  ReactGA.send({ hitType: "pageview", page: "/", title: "Home Page" });
+function Services() {
+  ReactGA.send({ hitType: "pageview", page: "/services", title: "Services Page" });
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       {/*  Site header */}
@@ -28,8 +28,9 @@ function Home() {
         </div>
 
         {/*  Page sections */}
-        <HeroHome />
-        <FeaturesBlocks />
+       
+       
+        <FeaturesZigZag />
         <Testimonials />
         <Newsletter />
       </main>
@@ -45,4 +46,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Services;

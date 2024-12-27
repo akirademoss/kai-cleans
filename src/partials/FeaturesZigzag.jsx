@@ -23,15 +23,15 @@ function FeaturesZigzag() {
 
 
         {/* Types of cleans detail section */}
-        <div className="py-12 md:py-20 border-t border-gray-800">
+        <div className="py-12 md:py-20 ">
           {/* Items */}
           <div className="grid gap-20">
 
           {/* Regular Cleans header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Cleaning Services You Can Rely On</div>
-            <h1 className="h2 mb-4 font-manrope">Regular Cleaning Included Tasks</h1>
-            <p className="text-xl text-gray-400 font-manrope">Get your house cleaned with an ongoing cleaning service either weekly or every two weeks, or monthly. To sign up, you’ll first need a Deep Clean to get your house ready. After that, we'll collaborate to create a Regular Clean routine that sets you up for success.</p>
+            <h1 className="h1 mb-4 font-manrope">Regular Cleaning Included Tasks</h1>
+            <p className="text-xl text-gray-400 font-manrope">Get your house cleaned with an ongoing cleaning service either weekly, every two weeks, or monthly. To sign up, you’ll first need a Deep Clean to get your house ready. After that, we'll collaborate to create a Regular Clean routine that sets you up for success.</p>
           </div>          
 
             {/* 1st item */}
