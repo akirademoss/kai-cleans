@@ -205,7 +205,9 @@ export function PricingSection11() {
           data-aos="fade-up" data-aos-delay="200"
         >
           Compare the benefits and features of each plan below to find the ideal
-          match for your home&apos;s budget and cleaning needs.
+          match for your home&apos;s budget and cleaning needs.  Discounts applied
+          for monthly and bi-weekly subscriptions.
+          
         </Typography>
         <div className="grid gap-x-10 gap-y-8 md:grid-cols-2 lg:grid-cols-3 max-w-5xl">
           {cards.map(({ title, desc, options, price }, key) => (
