@@ -236,11 +236,11 @@ export function PricingSection11() {
                 </div>
                 <div className="md:p-10 p-4">
                   <p className="lg:!text-3xl !text-2xl font-bold font-manrope leading-9 text-gray-300 py-4">
-                    100% Satisfaction Gaurenteed Or Your Clean Is On Us!
+                    100% Satisfaction Gaurenteed!
                   </p>
                   <p className="lg:!text-xl !text-xl font-lead font-manrope leading-normal text-gray-500">
-                  No contracts required housecleaning services provider.
-                  Book today to secure a slot.
+                  Licensed and Insured Premium Quality Cleaning Services Provider.
+                  Book Today to Secure Your Slot.
                   </p>
                 </div>
                

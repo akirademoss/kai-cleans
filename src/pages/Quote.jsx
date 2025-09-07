@@ -50,19 +50,16 @@ function Quote() {
                 <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
                     <h2 className="h1 text-4xl mb-4 font-manrope " data-aos="fade-up" style={{ marginTop: '-100px' }}
                     >
-                        Quick and Easy Onboarding!
+                        Get Your Free Cleaning Estimate!
                     </h2>
                     <p className="text-xl font-normal text-gray-400 mb-0" data-aos="fade-up" data-aos-delay="200">
                     For further inquires email us at info@kaicleans.com
                     </p> 
                 </div>
-                <FormfacadeEmbed
-
-formFacadeURL="https://formfacade.com/include/110568194946322389214/form/1FAIpQLSdvRGosBt11ZESQnbzVukFh3W79CwlZ3Fd0WJRb2dzCfy5MZA/classic.js/?div=ff-compose"
-
-onSubmitForm={() => console.log('Form submitted')}
-
-/>
+                <div style={{width: '100%!important', padding: '0!important', margin: '0!important', height: '4000px!important'}}>
+                <iframe sandbox='allow-forms allow-same-origin allow-scripts allow-top-navigation' height='4000' src='https://app.zenmaid.com/booking-forms/H35XU/book' frameborder='0' scrolling='no' style={{width: '100%'}}>
+                </iframe>
+</div>
                 </div>
 
 
