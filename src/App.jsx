@@ -17,6 +17,8 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
 import Quote from './pages/Quote';
+import ServiceType from './pages/ServiceType';
+import Commercial from './pages/Commercial';
 import Services from './pages/Services';
 
 import ReactGA from "react-ga4";
@@ -52,6 +54,8 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/quote" element={<Quote/>} />
+        <Route path="/servicetype" element={<ServiceType/>} />
+        <Route path="/commercial" element={<Commercial/>} />
         <Route path="/services" element={<Services/>} />
       </Routes>
     </>

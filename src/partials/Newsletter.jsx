@@ -33,7 +33,7 @@ function Newsletter() {
             {/* CTA form */}
             
             <form className="w-full lg:w-1/2">
-            <NavLink to="/quote">
+            <NavLink to="/servicetype">
               <div className="flex flex-col sm:flex-row justify-left max-w-xs mx-auto sm:max-w-md lg:max-w-none">
                 <a className="btn text-blue-600 bg-blue-100 hover:bg-white shadow" href="#0">+ Get a Quote</a>
               </div>

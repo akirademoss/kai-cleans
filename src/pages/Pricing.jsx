@@ -78,7 +78,7 @@ function PricingCard({ title, desc, price, options }) {
             </li>
           ))}
         </ul>
-        <NavLink to="/quote">
+        <NavLink to="/servicetype">
         <Button className="text-white bg-blue-600" fullWidth varient="gradient">
           get started
         </Button>

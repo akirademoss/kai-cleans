@@ -15,6 +15,7 @@ const navigation = [
   { name: 'About Us', href: '/aboutus' },
   { name: 'Pricing', href: '/pricing' },
 
+
 ]
 
 function classNames(...classes) {
@@ -95,7 +96,7 @@ function Header() {
                     </div>
                   </div>
                   <div className="" style={{ display: 'flex', alignItems: 'right', justifyContent: 'right', width: '100%', alignItems: 'center'}}>
-                    <NavLink to="/quote">
+                    <NavLink to="/servicetype">
                       <button
                         class="sm:w-fit w-full px-3.5 py-2 bg-blue-600 hover:bg-white transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
                         <span class="px-1.5 text-white hover:text-blue-600 text-sm font-medium leading-6">+ Get Quote</span>
